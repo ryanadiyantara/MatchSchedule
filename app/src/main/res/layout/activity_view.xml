@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardMaxElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/clublogo_1"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:background="@color/white">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:id="@+id/waktu"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="01:00"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:id="@+id/tanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="23 Dec"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="14sp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/clublogo_2"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:background="@color/white">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="120dp">
+            <TextView
+                android:id="@+id/clubname_1"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="Manchester United"/>
+            <TextView
+                android:id="@+id/clubname_2"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="68dp"
+                android:text="Manchester United"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="170dp">
+            <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="DESKRIPSI"
+            android:textAlignment="center"/>
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:text="back"
+                android:textSize="11sp"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
