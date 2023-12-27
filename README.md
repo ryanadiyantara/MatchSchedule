@@ -1,5 +1,6 @@
 # Backgrounds:
-- To improve personal skills
+- Learn about Mobile App Development
+- To Improve My Personal Skills
 
 # Used:
 - Android Studio
